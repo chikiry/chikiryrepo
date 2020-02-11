@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="plugin.program.chikirywizard" name="chikiry wizard" version="0.0.1" provider-name="chikiry">
+<addon id="plugin.program.chikirywizard" name="chikiry wizard" version="0.0.2" provider-name="chikiry">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
