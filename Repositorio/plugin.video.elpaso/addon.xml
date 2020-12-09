@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="plugin.video.elpaso"
        name="[COLOR gold]elpaso[/COLOR]"
-       version="0.2"
+       version="0.3"
        provider-name="chikiry">
-  <requires>
+ <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.beautifulsoup" version="3.2.1"/>
     <import addon="script.module.simple.downloader" version="0.9.4"/>
@@ -11,24 +11,34 @@
     <import addon="script.module.requests" />
     <import addon="script.module.httplib2" />
     <import addon="script.module.liveresolver" version="0.1.24" optional="true"/>
-    <import addon="script.module.youtube.dl" />
-    <import addon="plugin.video.youtube"  />
-    <import addon="script.module.urlresolver"/>
-    <import addon="script.module.simplejson" />    
-     <import addon="script.module.livestreamer" />
-     <import addon="script.module.pyamf" optional="true"/>
+    <import addon="script.module.youtube.dl" optional="true"/>
+    <import addon="plugin.video.youtube" />
+    <import addon="script.module.urlresolver" />
+	<import addon="script.module.resolveurl" />
+    <import addon="script.module.inputstreamhelper" optional="true"/>  
+    <import addon="script.module.livestreamer" optional="true"/>
+    <import addon="script.module.slproxy" optional="true"/>
+	<import addon="script.module.simplejson" />
+    <import addon="script.module.livestreamer" optional="true"/>
+    <import addon="script.module.pyamf" optional="true"/>
   </requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
-    <provides>video</provides>
+    <provides>video audio</provides>
   </extension>
-    <extension point="xbmc.addon.repository" name="chikiryrepo">
+  
+   <extension point="xbmc.addon.repository" name="chikiryrepo">
         <info>https://raw.githubusercontent.com/chikiry/chikiryrepo/master/Repositorio/addons.xml</info>
         <checksum>https://raw.githubusercontent.com/chikiry/chikiryrepo/master/Repositorio/addons.xml.md5</checksum>
         <datadir zip="true">https://raw.githubusercontent.com/chikiry/chikiryrepo/master/Repositorio/</datadir>
-    </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary>El Paso</summary>
-	<description>Primer addon cofrade para kodi, directos, videos, marchas, cofradias,etc....todo desde tu media center</description>
+   </extension>
+   
+   <extension point="xbmc.addon.metadata">
+    <summary>Creado por Chikiry, para todos los Cofrades</summary>
+    <description>DEDICADO A LA SEMANA SANTA</description>
     <platform>all</platform>
+	  <assets>
+		<icon>icon.png</icon>
+		<fanart>fanart.jpg</fanart>
+	  </assets>
   </extension>
 </addon>
