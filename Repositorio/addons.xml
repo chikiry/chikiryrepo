@@ -170,7 +170,7 @@ Testers: Luisma, Toni, Zarat, SuperTopo, Jorge, Bojbit, MiKeL, Chikiry</descript
 </addon>
 
 <addon
-	id="skin.camaradas" version="0.0.1" name="skin[COLORorangered] CAMARADAS[/COLOR]" provider-name="CAMARADAS">
+	id="skin.camaradas" version="0.0.2" name="skin[COLORorangered] CAMARADAS[/COLOR]" provider-name="CAMARADAS">
 	<requires>
 		<import addon="xbmc.gui" version="5.14.0"/>
 		<import addon="script.skinshortcuts" version="1.0.8"/>
