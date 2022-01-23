@@ -14,7 +14,6 @@
     <import addon="script.module.youtube.dl" optional="true"/>
     <import addon="plugin.video.youtube" />
 	<import addon="plugin.video.dailymotion_com" />
-    <import addon="script.module.urlresolver" />
 	<import addon="script.module.resolveurl" />
     <import addon="script.module.inputstreamhelper" optional="true"/>  
     <import addon="script.module.livestreamer" optional="true"/>
