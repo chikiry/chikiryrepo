@@ -13,7 +13,6 @@
     <import addon="script.module.liveresolver" version="0.1.24" optional="true"/>
     <import addon="script.module.youtube.dl" optional="true"/>
     <import addon="plugin.video.youtube" />
-	<import addon="plugin.video.dailymotion_com" />
 	<import addon="script.module.resolveurl" />
     <import addon="script.module.inputstreamhelper" optional="true"/>  
     <import addon="script.module.livestreamer" optional="true"/>
