@@ -134,7 +134,7 @@
 
 <addon id="plugin.video.novelasstream"
        name="[COLOR red]Novelas Stream[/COLOR]"
-       version="0.0.1"
+       version="0.0.3"
        provider-name="Chikiry">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -146,8 +146,6 @@
     <import addon="script.module.liveresolver" version="0.1.24" optional="true"/>
     <import addon="script.module.youtube.dl" optional="true"/>
     <import addon="plugin.video.youtube" />
-	<import addon="plugin.video.dailymotion_com" />
-    <import addon="script.module.urlresolver" />
 	<import addon="script.module.resolveurl" />
     <import addon="script.module.inputstreamhelper" optional="true"/>
     <import addon="script.module.livestreamer" optional="true"/>
