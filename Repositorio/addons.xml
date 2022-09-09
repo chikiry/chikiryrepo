@@ -54,7 +54,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.program.chikirywizardmatrix" name="[COLOR red]Chikiry Wizard Matrix[/COLOR]" version="0.0.1" provider-name="chikiry">
+<addon id="plugin.program.chikirywizardmatrix" name="[COLOR gold]Chikiry Wizard[COLOR white] Matrix[/COLOR]" version="0.0.2" provider-name="chikiry">
     <requires>
         <import addon="xbmc.python" version="3.0.0" />
         <import addon="script.module.requests" />
