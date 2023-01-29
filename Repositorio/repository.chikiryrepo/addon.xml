@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="repository.chikiryrepo" name="[COLOR red]chikiryrepo[/COLOR]" version="2.0" provider-name="chikiry">
+<addon id="repository.chikiryrepo" name="[COLOR red]chikiryrepo[/COLOR]" version="3.0" provider-name="chikiry">
  <extension point="xbmc.addon.repository" name="chikiryrepo">
   <info compressed="false">https://raw.githubusercontent.com/chikiry/chikiryrepo/master/Repositorio/addons.xml</info>
   <checksum>https://raw.githubusercontent.com/chikiry/chikiryrepo/master/Repositorio/addons.xml.md5</checksum>
