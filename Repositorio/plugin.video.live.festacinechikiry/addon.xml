@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.elpaso" name="[COLOR purple]•  [COLOR gold]El Paso[/COLOR]" version="3.0.0" provider-name="chikiry">
+<addon id="plugin.video.live.festacinechikiry" name="[COLOR gold]CINECHIKIRYFESTA[/COLOR]" version="2.0.0" provider-name="chikiry">
 	<requires>
         <import addon="script.module.six"/>
         <import addon="script.module.kodi-six"/>
@@ -13,20 +13,23 @@
         <import addon="script.module.inputstreamhelper" />
         <import addon="script.module.pycryptodome" optional="true" />
         <import addon="script.module.slproxy" optional="true" />
-		<import addon="plugin.video.duffyou" optional="true" />
 	</requires>
 	<extension point="xbmc.python.pluginsource" library="default.py">
 		<provides>video</provides>
 	</extension>
-
+	
 	<extension point="xbmc.addon.repository" name="chikiryrepo">
-        <info>https://raw.githubusercontent.com/chikiry/chikiryrepo/master/Repositorio/addons.xml</info>
-        <checksum>https://raw.githubusercontent.com/chikiry/chikiryrepo/master/Repositorio/addons.xml.md5</checksum>
-        <datadir zip="true">https://raw.githubusercontent.com/chikiry/chikiryrepo/master/Repositorio/</datadir>
-    </extension>
+    	<dir minversion="18.9.0">
+		    <info compressed="false">https://raw.githubusercontent.com/chikiry/chikiryrepo/master/Repositorio/addons.xml</info>
+		    <checksum>https://raw.githubusercontent.com/chikiry/chikiryrepo/master/Repositorio/addons.xml.md5</checksum>
+		    <datadir zip="true">https://raw.githubusercontent.com/chikiry/chikiryrepo/master/Repositorio/</datadir>
+	    </dir>
+	</extension>
+
+	
   <extension point="xbmc.addon.metadata">
-    <summary>Tu Addon Cofrade</summary>
-	<description>Primer addon cofrade para kodi, directos, videos, marchas, cofradias,etc....todo desde tu media center, Realizado por cofrades para cofrades</description>
+    <summary>CINE CHIKIRY</summary>
+	<description>COMPLEMENTO PARA CHIKIRYWIZARD</description>
     <platform>all</platform>
 	<assets>
             <icon>icon.png</icon>
