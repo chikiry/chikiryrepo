@@ -72,7 +72,7 @@
     </extension>
 </addon>
 
-<addon id="plugin.video.elpaso" name="[COLOR purple]•  [COLOR gold]El Paso[/COLOR]" version="3.0.0" provider-name="chikiry">
+<addon id="plugin.video.elpaso" name="[COLOR purple]•  [COLOR gold]El Paso[/COLOR]" version="4.0.0" provider-name="chikiry">
 	<requires>
         <import addon="script.module.six"/>
         <import addon="script.module.kodi-six"/>
