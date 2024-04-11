@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="actualizar.contenido" name="Actualizador Contenido ChikiryWizard" version="2.0.0" provider-name="CHIKIRYWIZARD">
+	<requires>
+		<import addon="xbmc.python" version="3.0.0"/>
+		<import addon="script.module.six"/>
+		<import addon="script.module.kodi-six"/>
+	</requires>
+	<extension point="xbmc.service" library="autoexec.py">
+	</extension>
+	<extension point="xbmc.addon.repository" name="chikiryrepo">
+    	<dir minversion="18.9.0">
+		    <info compressed="false">https://raw.githubusercontent.com/chikiry/chikiryrepo/master/Repositorio/addons.xml</info>
+		    <checksum>https://raw.githubusercontent.com/chikiry/chikiryrepo/master/Repositorio/addons.xml.md5</checksum>
+		    <datadir zip="true">https://raw.githubusercontent.com/chikiry/chikiryrepo/master/Repositorio/</datadir>
+	    </dir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en_GB">ACTUALIZADOR DE CONTENIDO PARA LAS BUILDS DE CHIKIRYWIZARD</summary>
+		<description lang="en_GB">ACTUALIZADOR DE CONTENIDO PARA LAS BUILDS DE CHIKIRYWIZARD</description>
+		<platform>all</platform>
+		<license>GNU GENERAL PUBLIC LICENSE Version 2</license>
+		<assets>
+		<icon>icon.png</icon>
+        <fanart>fanart.jpg</fanart>
+		</assets>
+	</extension>
+</addon>
